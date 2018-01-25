@@ -3,7 +3,8 @@ language: java
 addons:
   sonarcloud:
     organization: "tykvik-github"
-    token: $SONAR_TOKEN
+    token:
+      secure: $SONAR_TOKEN
     branches:
       - sonar
 script:
